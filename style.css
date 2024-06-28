@@ -20,9 +20,9 @@ nav > ul {
   padding: 0;
   margin: 0;
 }
-li {
+nav > ul > li {
   padding: 8px 16px;
-  border-right: 2px solid #000;
+  border-right: 1px dashed #000;
 }
 a {
   color: #fff;
@@ -52,11 +52,12 @@ figure {
 }
 section > article {
   display: flex;
+  gap: 16px;
   flex-direction: row;
 }
 article > figure {
   height: fit-content;
-  margin: 0px 16px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 200px;
 }
 figure > img {
@@ -68,4 +69,10 @@ article > p {
   flex: 1;
 }
 article > ul {
+  background-color: #fff;
+  height: fit-content;
+  border: 1px #000 dashed;
+  width: 160px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
